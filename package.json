@@ -1,0 +1,18 @@
+{
+  "name": "potentiumbot-2.0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bent": "^7.3.12",
+    "discord.js": "^14.20.0",
+    "node-fetch": "^3.3.2",
+    "undici": "^7.10.0"
+  }
+}
