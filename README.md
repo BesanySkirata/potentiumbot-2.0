@@ -1,5 +1,6 @@
 # potentiumbot-2.0
 A bot for the Potentium Order discord server
+
 Updated for discord.js v14
 
 ## What it does
