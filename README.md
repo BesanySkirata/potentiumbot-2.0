@@ -18,6 +18,6 @@ Due to size limits on Discord embeds, this is done across two of them. Currently
 ![image](https://github.com/user-attachments/assets/5973dc3c-48f1-4e40-a2fb-9a624ffcca58)
 
 ## To Do
-- Generalize /allies into /guild <guild_id>, where guild_id is the section of the swgoh.gg URL after /g/, i.e. https://swgoh.gg/g/pIc8G4IAQIqb6yhdJbZLLA/ to make it more accessible
+~~- Generalize /allies into /guild <guild_id>, where guild_id is the section of the swgoh.gg URL after /g/, i.e. https://swgoh.gg/g/pIc8G4IAQIqb6yhdJbZLLA/ to make it more accessible~~ Created /guild allycode:<allycode> command to do this instead, since that makes it possible to pull in with swgoh.gg's APIs
 - Add more data points into /guild after creation, or write additional commands that pull specific datapoints as needed
-- Explore incorporating /swgoh-utils/swgoh-comlink calls as an alternative that may allow for name-based search for commands
+- Explore incorporating /swgoh-utils/swgoh-comlink calls as an alternative that may allow for name-based search for commands and/or use of other data points not available in SWGOH.GG's api, like last completed raid scores
