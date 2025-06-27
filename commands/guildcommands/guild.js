@@ -40,7 +40,7 @@ module.exports = {
 	async execute(interaction) {
 		await interaction.deferReply({ ephemeral: true }); //hold the reply, ephemeral because this gets LARGE and it's better not to clog channels
 		await wait(3_000); //wait a bit for things to parse, thanks loops
-        const allycode = interaction.options.getString('allycode') //retrieve the passed ally code
+        const allycode = interaction.options.getInteger('allycode') //retrieve the passed ally code
 		
         //a series of constants to get from ally code to guild ID
         const ally = await fetch ('https://swgoh.gg/api/player/' + allycode + '/')
