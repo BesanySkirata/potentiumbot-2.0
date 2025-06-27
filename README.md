@@ -2,7 +2,7 @@
 A bot for the Potentium Order discord server
 
 ## What it does
-This bot is designed to assist officers in the SWGOH guild alliance known as The Potentium Order by keeping track of various pieces of guild data. It collects this via API and displays it in an embed.
+This bot is designed to assist officers in The Potentium Order (a SWGOH guild alliance) by keeping track of various pieces of guild data. It collects this via API and displays it in an embed.
 
 ## Commands
 ### /status
